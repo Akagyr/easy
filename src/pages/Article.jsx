@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import { useSelector } from 'react-redux';
 
 const Article = () => {
-    const {currentArticle} = useSelector(state => state.articles);
+  const {currentArticle} = useSelector(state => state.articles);
 
   return (
     <Container className='article'>
